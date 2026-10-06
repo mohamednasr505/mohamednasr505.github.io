@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#050505">
+<title>Mohamed Nasr | Connect With Me</title>
+<style>
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;padding:0;min-height:100%;background:#030303;color:#fff;font-family:Arial,Helvetica,sans-serif}
+body{overflow-x:hidden}
+.page{position:relative;width:100%;min-height:100svh;padding:38px 18px 34px;display:flex;justify-content:center;overflow:hidden;background:#050505}
+.page:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.34),rgba(0,0,0,.58) 48%,rgba(0,0,0,.82)),url('profile.png') center top/cover no-repeat;filter:saturate(.72) brightness(.62);z-index:0}
+.page:after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 50% 18%,rgba(255,196,64,.12),transparent 25%),linear-gradient(135deg,transparent 0 45%,rgba(216,164,48,.15) 46%,transparent 47% 57%,rgba(216,164,48,.08) 58%,transparent 59%);z-index:0;pointer-events:none}
+.wrap{position:relative;z-index:1;width:100%;max-width:520px;text-align:center}
+.profile{width:132px;height:132px;margin:4px auto 16px;border-radius:50%;padding:5px;background:linear-gradient(135deg,#6d4a12,#ffd86b,#8c6217,#e7bb58);box-shadow:0 0 0 2px rgba(255,214,115,.25),0 0 28px rgba(235,181,68,.32)}
+.profile img{width:100%;height:100%;display:block;object-fit:cover;object-position:center;border-radius:50%;border:2px solid #080808}
+h1{margin:0;font-size:clamp(27px,6vw,31px);line-height:1.1;font-weight:800;letter-spacing:.2px;text-shadow:0 3px 18px #000}
+h1 span{background:linear-gradient(90deg,#fff 28%,#e4b64e 70%,#fff0b0);-webkit-background-clip:text;background-clip:text;color:transparent}
+.connect{display:flex;align-items:center;gap:12px;justify-content:center;margin:11px 0 22px;color:#e5bd5b;font-size:12px;letter-spacing:clamp(2.5px,1vw,4px);font-weight:700}
+.connect:before,.connect:after{content:"";height:1px;width:52px;background:linear-gradient(90deg,transparent,#c99a38)}
+.connect:after{background:linear-gradient(90deg,#c99a38,transparent)}
+.links{display:flex;flex-direction:column;gap:12px}
+.card{position:relative;display:flex;align-items:center;width:100%;min-height:78px;padding:10px 17px 10px 12px;border:1px solid rgba(224,185,89,.48);border-radius:19px;text-decoration:none;color:#fff;background:linear-gradient(110deg,rgba(255,255,255,.105),rgba(255,255,255,.045));box-shadow:inset 0 1px 0 rgba(255,255,255,.16),0 9px 28px rgba(0,0,0,.32),0 0 18px rgba(211,165,57,.06);backdrop-filter:blur(13px);-webkit-backdrop-filter:blur(13px);overflow:hidden;transition:transform .18s,background .18s;touch-action:manipulation}
+.card:before{content:"";position:absolute;left:0;right:0;top:0;height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.45),transparent)}
+.card:active{transform:scale(.985);background:rgba(255,255,255,.12)}
+.icon{width:54px;height:54px;flex:0 0 54px;border-radius:16px;display:grid;place-items:center;background:rgba(0,0,0,.35);border:1px solid rgba(255,255,255,.14);box-shadow:inset 0 1px 0 rgba(255,255,255,.12)}
+.icon svg{width:29px;height:29px}
+.text{flex:1;min-width:0;text-align:left;padding-left:14px}
+.name{font-size:17px;font-weight:800;letter-spacing:.2px}
+.sub{font-size:11px;color:rgba(255,255,255,.57);margin-top:4px;letter-spacing:.35px}
+.arrow{font-size:27px;color:#e5bd5b;font-weight:300;margin-left:8px}
+.gold{fill:#e5bd5b}.ig{fill:url(#ig)}.wa{fill:#2bd46b}.fb{fill:#3b82f6}.tt{fill:#fff}.tg{fill:#45a8ff}
+.footer{margin-top:25px;color:#dfb957;font-size:10px;letter-spacing:clamp(3px,1.2vw,5px);font-weight:700}
+.crown{font-size:19px;margin-top:8px;color:#e5bd5b}
+@media(max-width:420px){
+ .page{padding:24px 12px 28px}
+ .profile{width:132px;height:132px;margin-bottom:15px}
+ .links{gap:12px}
+ .card{min-height:78px;padding-left:12px;padding-right:14px}
+ .icon{width:54px;height:54px;flex-basis:54px}
+}
+@media(max-width:340px){
+ .page{padding-left:10px;padding-right:10px}
+ .card{padding-right:11px}
+ .icon{width:50px;height:50px;flex-basis:50px}
+ .text{padding-left:11px}
+ .name{font-size:16px}
+ .sub{font-size:10px}
+}
+</style>
+</head>
+<body>
+<div class="page"><main class="wrap">
+<div class="profile"><img src="profile.png" alt="Mohamed Nasr"></div>
+<h1>Mohamed <span>Nasr</span></h1>
+<div class="connect">CONNECT WITH ME</div>
+<div class="links">
+<a class="card" href="https://www.instagram.com/i_mohamed_nasr?stkn=djllbmhtZmtxYWFp" target="_blank" rel="noopener"><div class="icon"><svg viewBox="0 0 24 24"><defs><linearGradient id="ig" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#ffcf4a"/><stop offset=".45" stop-color="#f33d72"/><stop offset="1" stop-color="#9147e8"/></linearGradient></defs><path class="ig" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.2A4.8 4.8 0 1 1 7.2 12 4.8 4.8 0 0 1 12 7.2zm0 2A2.8 2.8 0 1 0 14.8 12 2.8 2.8 0 0 0 12 9.2zM17.7 6.1a1.2 1.2 0 1 1-1.2 1.2 1.2 1.2 0 0 1 1.2-1.2z"/></svg></div><div class="text"><div class="name">Instagram</div><div class="sub">Follow me</div></div><div class="arrow">›</div></a>
+<a class="card" href="https://wa.me/qr/XVSWTA5T4AAEP1" target="_blank" rel="noopener"><div class="icon"><svg viewBox="0 0 24 24"><path class="wa" d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0 11.9 11.9 0 0 0 1.8 17.8L.5 23.5l5.8-1.5A11.9 11.9 0 1 0 20.5 3.5zm-8.4 17.4a9.9 9.9 0 0 1-5-1.4l-.4-.2-3.4.9.9-3.3-.2-.4a9.9 9.9 0 1 1 8.1 4.4zm5.4-7.4c-.3-.2-1.8-.9-2.1-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8 8 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.4.3-.6s0-.4 0-.5l-.9-2.1c-.2-.5-.5-.4-.7-.4h-.6c-.2 0-.5.1-.8.4-.3.3-1.1 1.1-1.1 2.7s1.1 3.1 1.2 3.3c.2.2 2.2 3.4 5.4 4.8 3.2 1.4 3.2.9 3.8.9s1.8-.7 2-1.4.2-1.3.2-1.4c-.1-.2-.3-.3-.6-.4z"/></svg></div><div class="text"><div class="name">WhatsApp</div><div class="sub">Chat with me</div></div><div class="arrow">›</div></a>
+<a class="card" href="https://www.facebook.com/share/19pDJdvQG4/" target="_blank" rel="noopener"><div class="icon"><svg viewBox="0 0 24 24"><path class="fb" d="M13.5 22v-8h2.7l.4-3h-3.1V9.1c0-.9.3-1.6 1.7-1.6h1.8V4.8c-.3 0-1.4-.1-2.6-.1-2.6 0-4.4 1.6-4.4 4.5V11H7v3h3v8h3.5z"/></svg></div><div class="text"><div class="name">Facebook</div><div class="sub">Follow me</div></div><div class="arrow">›</div></a>
+<a class="card" href="https://www.tiktok.com/@m16na" target="_blank" rel="noopener"><div class="icon"><svg viewBox="0 0 24 24"><path class="tt" d="M15 2h3.1c.3 1.8 1.4 3.2 3 4v3.2c-1.1-.1-2.2-.5-3.1-1.1v6.7a6.2 6.2 0 1 1-5.4-6.1v3.3a2.9 2.9 0 1 0 2.4 2.8V2z"/></svg></div><div class="text"><div class="name">TikTok</div><div class="sub">Follow me</div></div><div class="arrow">›</div></a>
+<a class="card" href="https://t.me/m_a_no1" target="_blank" rel="noopener"><div class="icon"><svg viewBox="0 0 24 24"><path class="tg" d="M21.6 3.4 2.9 10.6c-1.3.5-1.3 1.2-.2 1.5l4.8 1.5 1.8 5.7c.2.6.1.8.8.8.5 0 .7-.2.9-.4l2.3-2.2 4.8 3.5c.9.5 1.5.3 1.7-.8l3.1-15.5c.3-1.4-.5-2-1.5-1.3zM8.2 13.2l10.9-6.9c.5-.3.9-.1.5.2l-8.9 8.1-.3 3.1-1.2-4.5-1-.3z"/></svg></div><div class="text"><div class="name">Telegram</div><div class="sub">Join my channel</div></div><div class="arrow">›</div></a>
+</div>
+<div class="footer">GOOD VIBES ONLY<div class="crown">♛</div></div>
+</main></div>
+</body></html>
